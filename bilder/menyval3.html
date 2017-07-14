@@ -1,0 +1,85 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Personliga favoriter</title>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="icon" type="image/png" href="bilder/rose-macaronikon.png">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quintessential" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid" id="topp">
+           <h1>Baka med Olivia
+            <img height="110" id="cupcake" width="100" src="bilder/cupcake.png"> 
+            <img height="110" id="cupcake" width="100" src="bilder/kanelbulle.png">
+            <img height="110" id="cupcake" width="100" src="bilder/lemonadpng.png">
+            </h1>
+
+    </div>
+    <!-- Den lilla kolumnen till vänster där menyn finns -->
+    <div class="col-sm-2">
+        <ul class="nav nav-pills nav-stacked nav-default">
+            <li><a href="index.html">Startsida</a></li>
+            <li class="activate"><a href="menyval1.html">Högtider</a></li>
+            <li><a href="menyval2.html">Småkakor</a></li>
+            <li><a href="menyval3.html">Personliga favoriter</a></li>
+            <li><a href=https://www.instagram.com/bakamed0livia/?hl=sv>Följ mig på instagram</a></li>
+        </ul>
+    </div>
+
+    <div class="col-sm-10">
+    <h2 class="overskrift">Cheesecake</h2>
+        <img height="250" width="300" src="bilder/cheesecake.jpg">
+        <img height="250" width="300" src="bilder/cheesecake2.jpg">
+        <img height="250" width="300" src="bilder/cheesecake3.jpg">
+        <h4> Det här är en av mina absoluta favorit bakverk just för att det finns så mycket olika varianter av cheesecake och man kan tillaga den på olika sätt, om du kanske inte har en ugn finns det fryst cheesecake som är minst lika gott. Botten basera på krossade kex och färskost som fyllning som kan smaksättas. Det vanligaste är att den tillagas i ugn, kyl eller frys.</h4>
+
+       <h2 class="overskrift">Lemonad</h2> 
+        <img height="250" width="300" src="bilder/lemonad1.png">
+        <img height="250" width="300" src="bilder/lemonad2.jpg">
+        <img height="250" width="300" src="bilder/lemonad3.jpg">
+        <h4>Lemonad är något sött och kallt du kan skölja ner halsen med under sommaren. Det är en hemmagjord dryck gjord av citroner, vatten och socker. 
+        Man kan även göra rosa lemonad med hallon eller jordgubbar och karamellfärg. Perfekt att bjuda på partyn och ha med till stranden.</h4>
+
+       <h2 class="overskrift">Pannkakor</h2> 
+        <img height="250" width="300" src="bilder/pannkakor.jpg">
+        <img height="250" width="300" src="bilder/pannkaka2.jpg">
+        <img height="250" width="300" src="bilder/pannkaka3.jpg">
+        <h4>Pannkakor kan vara en enkel lunch med sylt eller bli en dessert med grädde, choklad och frukt. Att laga pannkakor är lätt och har ingridienser som man oftast har hemma. På internet kan man också hitta recept på gluten och laktosfria pannkakor.</h4>
+
+       <h2 class="overskrift">Bullar</h2> 
+        <img height="250" width="300" src="bilder/kanelbullar.jpg">
+        <img height="250" width="300" src="bilder/kanelbullar2.jpg">
+        <img height="250" width="300" src="bilder/kanelbullar3.jpg">
+        <h4>Kanelbullar är ett tidskrävande bakverk men det är absolut värt det. Den klassiska kanelbullen har utvecklats och nu kan du andvända så många olika smaker för att få den unik.Degen fylls med socker, smör och kanel. När de kommer ut ur ugnen är dem gyllenbruna och saftiga. Bullen är också ett bakverk som passar året om.</h4>
+
+
+
+    </div>
+
+
+</body>
+</html>

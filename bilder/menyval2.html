@@ -1,0 +1,90 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title> Småkakor </title>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="icon" type="image/png" href="bilder/rose-macaronikon.png">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quintessential" rel="stylesheet">
+<body>
+    <div class="container-fluid" id="topp">
+    <h1>Baka med Olivia
+            <img height="110" id="cupcake" width="100" src="bilder/cupcake.png"> 
+            <img height="110" id="cupcake" width="100" src="bilder/kanelbulle.png">
+            <img height="110" id="cupcake" width="100" src="bilder/lemonadpng.png">
+            </h1>
+
+    </div>
+
+    <!-- Den lilla kolumnen till vänster där menyn finns -->
+    <div class="col-sm-2">
+        <ul class="nav nav-pills nav-stacked nav-default">
+            <li><a href="index.html">Startsida</a></li>
+            <li class="activate"><a href="menyval1.html">Högtider</a></li>
+            <li><a href="menyval2.html">Småkakor</a></li>
+            <li><a href="menyval3.html">Personliga favoriter</a></li>
+            <li><a href=https://www.instagram.com/bakamed0livia/?hl=sv>Följ mig på instagram</a></li>
+        </ul>
+    </div>
+
+    <!-- Den stora kolumnen till höger om menyn där innehållet finns -->
+    <div class="col-sm-10">
+        <h2 class="overskrift">Havreflarn</h2>
+        <img height="250" width="300" src="bilder/havreflarn.jpg">
+        <img height="250" width="300" src="bilder/havreflarn2.jpg">
+        <img height="250" width="300" src="bilder/havreflarn3.jpg">
+
+
+        <h4>Havreflarn är perfekt till fikat och är lätta att laga. det fungerar lika bra att äta bara som det är eller andvända som tuggmotstånd i efterätter.Den innehåller smör, socker, sirap, och havregryn, vissa recept innehåller vispgrädde och ingefära. ingefäran är ett smart tips för att få mer smak samt doft.</h4>
+
+         <h2 class="overskrift">Macarons</h2>
+         <img height="250" width="300" src="bilder/macarons.jpg">
+         <img height="250" width="300" src="bilder/macarons2.jpg">
+         <img height="250" width="300" src="bilder/macarons3.jpg">
+
+         <h4>Macarons är söta små bakverk som ursprungligen är från Frankrike.
+         den består av äggvita, florsocker, stosöcker, mandelpulver och karamellfärg.
+         den har en top och en botten och i mellan fylls den oftast med ganache eller sylt.</h4>
+
+         <h2 class="overskrift">Hallongrottor</h2>
+         <img height="250" width="300" src="bilder/hallongrottor.jpg">
+         <img height="250" width="300" src="bilder/hallongrottor2.jpg">
+         <img height="250" width="300" src="bilder/hallongrottor3.jpg">
+
+         <h4>Hallongrottor eller syltkakor som det även kallas är en lättbakad kaka.
+         En vanilj smakande kaka med sylt i mitten. 
+         Den består av smör, socker, vetemjöl, marsanpulver, bakpulver och vilken sylt du än vill ha
+         . Den är både söt och knaprigt i smaken.</h4>
+
+         <h2 class="overskrift">Biskvier</h2>
+         <img height="250" width="300" src="bilder/biskvier.jpg">
+         <img height="250" width="300" src="bilder/biskvier2.jpg">
+         <img height="250" width="300" src="bilder/beskvier3.jpg">
+
+         <h4>Beskvier är en bakelse gjord på en socker och mandelbotten, fylld med smörkräm som du själv kan smaksätta och sen sist täckt av ett lager med mörk choklad. Ett mäktigt bakverk som nästan är lite för stort som fika.</h4>
+    </div>
+ </body>
+ </html>

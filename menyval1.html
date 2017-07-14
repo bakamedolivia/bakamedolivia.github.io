@@ -1,0 +1,117 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Högtider </title>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="icon" type="image/png" href="bilder/rose-macaronikon.png">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quintessential" rel="stylesheet">
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body> <!-- I den här diven finns allt som ligger ovanför menyn och innehållet. Förslagsvis hemsidans namn -->
+    <div class="container-fluid" id="topp">
+        <h1>Baka med Olivia
+            <img height="110" id="cupcake" width="100" src="bilder/cupcake.png"> 
+            <img height="110" id="cupcake" width="100" src="bilder/kanelbulle.png">
+            <img height="110" id="cupcake" width="100" src="bilder/lemonadpng.png">
+        </h1>
+    </div>
+
+    <div class="col-sm-2">
+        <ul class="nav nav-pills nav-stacked nav-default">
+            <li><a href="Index.html">Startsida</a></li>
+            <li class="activate"><a href="menyval1.html">Högtider</a></li>
+            <li><a href="menyval2.html">Småkakor</a></li>
+            <li><a href="menyval3.html">Personliga favoriter</a></li>
+            <li><a href=https://www.instagram.com/bakamed0livia/?hl=sv>Följ mig på instagram</a></li>
+        </ul>
+    </div>
+
+    <!-- Den stora kolumnen till höger om menyn där innehållet finns -->
+    <div class="col-sm-10">
+        <h2 class="overskrift"> Julafton</h2>
+        <img height="250" width="300" src="bilder/julkola.jpg">
+        <img height="250" width="300" src="bilder/julgran.jpg">
+        <img height="250" width="300" src="bilder/knack1.jpg">
+
+        <h4> Kola innehåller socker,sirap,vispgrädde
+           och vaniljsocker, Använd gärna salt för extra smak. Den kokas och hälls ut på en plåt för att sedan svalna, sen använder man kniv eller sax för att klippa rutor.
+           Kolors konsistens är seg och smälter i munnen. </h4>
+
+        <h4> Knäck är godis som består av socker,sirap, grädde och hackad mandel. Den kokas och läggs sedan i små pappers formar som sen stelnar. 
+             knäcken blev känd i slutet av 1600- talet och klassas som en svensk jultradition. </h4>
+
+        <h3> Att baka inför julen är alltid kul och att baka något sött och kladdigt uppskattas alltid. Lägg upp på fin assiett och servera under fika på dopparedagen. </h3>
+
+        <h2 class="overskrift"> Midsommar </h2>
+
+        <img height="250" width="300" src="bilder/midsommartårta.jpg">
+        <img height="250" width="300" src="bilder/Midsommarstång.jpg">
+        <img height="250" width="300" src="bilder/rabarberpaj.jpg">
+
+        <h4> När man säger Midsommartårta så tänker de flesta på grädde och jordgubbar eftersom precis som köttbullar och potatis är jordgubbar och grädde en lika viktig ingrediens i midsommar. </h4>
+
+        <h4>Rabarberpaj är en klassiker till sommaren som många anser som en fräsch dessert.
+                 Den äts mest där rabarber odlas. 
+                 Rabarber har en syrlig smak som kompenseras fint med smuldeg, det är den perfekta kombinationen av syrligt och sött och har även bra tuggmotstånd. Lägg till vaniljvisp för extra smak.</h4> 
+
+        <h3>Midsommar är mycket sol och skoj så använd gärna ljusa färger som pasteller eller verkligen färgglada färger från kläder till dukning.
+                     Så se till att era bakverk blir lika goda som fina.</h3>
+
+        <h2 class="overskrift">Födelsedag</h2>
+
+        <img height="250" width="300" src="bilder/tårtbit.jpg">
+        <img height="250" width="300" src="bilder/födelsedag.jpg">
+        <img height="250" width="300" src="bilder/cupcakes.jpg">
+
+        <h4>Den klassiska prinsesstårtan som jag skulle säga är Sveriges mest kända bakverk. 
+            Den innehåller sylt, vaniljkräm, grädde och utanpå ett lager med marsipan och på toppen en ros.
+            Den är en tårta som du kan hitta på de flesta bagerierna och som alltid uppskattas på födelsedagar och bjudningar.</h4>
+
+        <h4>Cupcakes är en jättebra möjlighet till att göra allt mer personligt. 
+           Du kan baka en cupcake som är i helt dina smaker och färg.
+            välj ett muffins recept och sedan gör frosting till.
+           På partyn kan man göra olika för fler smakupplevelser och samtidigt ha väldigt roligt i köket.</h4>
+
+        <h3>Att fylla år betyder ett nytt år kanske ny smak och tycke, på födelsedagen ska man visa fram sin personlighet och genom att visa att du kanske gillar vissa saker mer eller mindre. 
+                                 Det finns så många olika varianter av bakverk med olika smaker och se till att det du bjuder på under kalaset ska du gilla.</h3>
+
+        <h2 class="overskrift">Halloween</h2>
+
+        <img height="250" width="300" src="bilder/cake pops.jpg">
+        <img height="250" width="300" src="bilder/Halloween.jpg">
+        <img height="250" width="300" src="bilder/finger kakor.jpg">
+
+        <h4>Cake pops är en perfekt liten dessert som kan dekoreras väldigt detaljrikt.
+            Man gör som en sockerkaka och smular sönder den, sedan binder man i hop den med smör som gör det till en deg, efter formar den som en boll och lägger den i frysen. Doppa sedan cake popsen i smält choklad eller glasyr och dekorera.</h4>
+
+        <h4>Fingrar gjorda på marsipan med nån nöt som föreställer en nagel.</h4>
+        <h3>Väldigt festliga inför Halloween och ser super roligt ut på bordet.</h3>
+    </div>
+</body>
+</html>
